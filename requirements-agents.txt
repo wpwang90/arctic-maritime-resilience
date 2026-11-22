@@ -1,0 +1,5 @@
+-r requirements-test.txt
+# Local inference used Apple Silicon and these archived package versions.
+mlx==0.32.4; platform_system == "Darwin" and platform_machine == "arm64"
+mlx-lm==0.32.2; platform_system == "Darwin" and platform_machine == "arm64"
+transformers==5.22.2

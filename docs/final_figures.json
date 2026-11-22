@@ -1,0 +1,286 @@
+{
+  "figures": {
+    "Main Figure 1": [
+      "13_CMIP6_GridPath_Figures/rebuild_mainfig1_latest_network.py",
+      "13_CMIP6_GridPath_Figures/prepare_mainfig1_trade_weights.py",
+      "13_CMIP6_GridPath_Figures/prepare_mainfig1_density_region_sankey.py",
+      "13_CMIP6_GridPath_Figures/plot_mainfig1_latest_network.py"
+    ],
+    "Main Figure 2": [
+      "13_CMIP6_GridPath_Figures/rebuild_mainfig2_latest_network.py",
+      "13_CMIP6_GridPath_Figures/calculate_mainfig2_cost_uncertainty.py",
+      "13_CMIP6_GridPath_Figures/plot_mainfig2_latest_network.py"
+    ],
+    "Main Figure 3": [
+      "13_CMIP6_GridPath_Figures/58_FourClass_Threshold_Analysis_20261101/calculate_thresholds.py",
+      "13_CMIP6_GridPath_Figures/58_FourClass_Threshold_Analysis_20261101/prepare_coastal_masks.py",
+      "13_CMIP6_GridPath_Figures/60_TwoPart_Disturbance_Chokepoint_Analysis_20261101/analyze_two_parts.py",
+      "13_CMIP6_GridPath_Figures/60_TwoPart_Disturbance_Chokepoint_Analysis_20261101/plot_partI_extreme_mainfig3.py",
+      "13_CMIP6_GridPath_Figures/64_NetworkTerminology_20261101/update_figure_labels.py",
+      "13_CMIP6_GridPath_Figures/66_MainFig3_DualAxis_20261106/build_figure.py"
+    ],
+    "Main Figure 4": [
+      "13_CMIP6_GridPath_Figures/60_TwoPart_Disturbance_Chokepoint_Analysis_20261101/select_dependent_closures.py",
+      "13_CMIP6_GridPath_Figures/60_TwoPart_Disturbance_Chokepoint_Analysis_20261101/replay_rank_routes.py",
+      "13_CMIP6_GridPath_Figures/60_TwoPart_Disturbance_Chokepoint_Analysis_20261101/calculate_new_country_ranks.py",
+      "13_CMIP6_GridPath_Figures/60_TwoPart_Disturbance_Chokepoint_Analysis_20261101/plot_new_mainfig4.py",
+      "13_CMIP6_GridPath_Figures/recompute_mainfig3_five_closures.py"
+    ],
+    "Main Figure 5 and Supplementary Figures 6-7": [
+      "13_CMIP6_GridPath_Figures/62_FigureAligned_Manuscript_20261101/recalculate_economics.py",
+      "13_CMIP6_GridPath_Figures/62_FigureAligned_Manuscript_20261101/plot_aligned_economics.py"
+    ],
+    "Extended Data Figure 1": [
+      "13_CMIP6_GridPath_Figures/rebuild_portwatch_event_appendix.py"
+    ],
+    "Extended Data Figure 2": [
+      "13_CMIP6_GridPath_Figures/40_Chokepoint_Bipartite_Dependency/build_bipartite_by_vessel.py"
+    ],
+    "Extended Data Figure 3 and Supplementary Figure 3": [
+      "13_CMIP6_GridPath_Figures/60_TwoPart_Disturbance_Chokepoint_Analysis_20261101/plot_auxiliary.py",
+      "13_CMIP6_GridPath_Figures/58_FourClass_Threshold_Analysis_20261101/summarize_and_plot.py"
+    ],
+    "Supplementary Figure 1": [
+      "13_CMIP6_GridPath_Figures/44_CMIP6_Monthly_SSP_Audit/compute_seasonality.py",
+      "13_CMIP6_GridPath_Figures/44_CMIP6_Monthly_SSP_Audit/compute_missingness_sensitivity.py",
+      "13_CMIP6_GridPath_Figures/44_CMIP6_Monthly_SSP_Audit/validate_and_plot.py"
+    ],
+    "Supplementary Figure 2": [
+      "13_CMIP6_GridPath_Figures/45_AdmissionThreshold_Sensitivity/compute_sensitivity.py",
+      "13_CMIP6_GridPath_Figures/45_AdmissionThreshold_Sensitivity/validate_and_plot.py"
+    ],
+    "Supplementary Figures 4-5": [
+      "13_CMIP6_GridPath_Figures/60_TwoPart_Disturbance_Chokepoint_Analysis_20261101/plot_auxiliary.py",
+      "13_CMIP6_GridPath_Figures/60_TwoPart_Disturbance_Chokepoint_Analysis_20261101/plot_new_mainfig4.py"
+    ],
+    "Supplementary Figure 8 and Note S24": [
+      "13_CMIP6_GridPath_Figures/71_Rank_Trade_Benefit_Experiment_20261111/prepare_inputs.py",
+      "13_CMIP6_GridPath_Figures/71_Rank_Trade_Benefit_Experiment_20261111/rank_market.py",
+      "13_CMIP6_GridPath_Figures/71_Rank_Trade_Benefit_Experiment_20261111/analyse.py",
+      "13_CMIP6_GridPath_Figures/71_Rank_Trade_Benefit_Experiment_20261111/plot_benefits.py"
+    ],
+    "Supplementary Figure 9 and Note S25": [
+      "13_CMIP6_GridPath_Figures/72_Supplier_Switch_Experiment_20261111/switch_market.py",
+      "13_CMIP6_GridPath_Figures/72_Supplier_Switch_Experiment_20261111/analyse_switch.py",
+      "13_CMIP6_GridPath_Figures/72_Supplier_Switch_Experiment_20261111/plot_switch.py"
+    ]
+  },
+  "dependencies": {
+    "13_CMIP6_GridPath_Figures/32_NCC2023_IndirectExposure/test_hem_model.py": [
+      "13_CMIP6_GridPath_Figures/32_NCC2023_IndirectExposure/hem_model.py"
+    ],
+    "13_CMIP6_GridPath_Figures/32_NCC2023_IndirectExposure/hem_model.py": [],
+    "13_CMIP6_GridPath_Figures/72_Supplier_Switch_Experiment_20261111/plot_switch.py": [
+      "13_CMIP6_GridPath_Figures/72_Supplier_Switch_Experiment_20261111/switch_market.py"
+    ],
+    "13_CMIP6_GridPath_Figures/72_Supplier_Switch_Experiment_20261111/switch_market.py": [
+      "13_CMIP6_GridPath_Figures/71_Rank_Trade_Benefit_Experiment_20261111/market.py",
+      "13_CMIP6_GridPath_Figures/71_Rank_Trade_Benefit_Experiment_20261111/rank_market.py"
+    ],
+    "13_CMIP6_GridPath_Figures/71_Rank_Trade_Benefit_Experiment_20261111/market.py": [],
+    "13_CMIP6_GridPath_Figures/71_Rank_Trade_Benefit_Experiment_20261111/rank_market.py": [
+      "13_CMIP6_GridPath_Figures/71_Rank_Trade_Benefit_Experiment_20261111/market.py"
+    ],
+    "13_CMIP6_GridPath_Figures/72_Supplier_Switch_Experiment_20261111/analyse_switch.py": [
+      "13_CMIP6_GridPath_Figures/72_Supplier_Switch_Experiment_20261111/switch_market.py"
+    ],
+    "13_CMIP6_GridPath_Figures/71_Rank_Trade_Benefit_Experiment_20261111/plot_benefits.py": [],
+    "13_CMIP6_GridPath_Figures/71_Rank_Trade_Benefit_Experiment_20261111/analyse.py": [
+      "13_CMIP6_GridPath_Figures/71_Rank_Trade_Benefit_Experiment_20261111/rank_market.py"
+    ],
+    "13_CMIP6_GridPath_Figures/71_Rank_Trade_Benefit_Experiment_20261111/prepare_inputs.py": [],
+    "13_CMIP6_GridPath_Figures/60_TwoPart_Disturbance_Chokepoint_Analysis_20261101/plot_new_mainfig4.py": [
+      "13_CMIP6_GridPath_Figures/51_TradeWeighted_CountryBetweenness/plot_vessel_top50_rank_population.py"
+    ],
+    "13_CMIP6_GridPath_Figures/51_TradeWeighted_CountryBetweenness/plot_vessel_top50_rank_population.py": [
+      "13_CMIP6_GridPath_Figures/51_TradeWeighted_CountryBetweenness/plot_all_country_rank_arrows.py",
+      "13_CMIP6_GridPath_Figures/51_TradeWeighted_CountryBetweenness/plot_rank_dynamics.py",
+      "13_CMIP6_GridPath_Figures/51_TradeWeighted_CountryBetweenness/plot_top50_rank_population.py"
+    ],
+    "13_CMIP6_GridPath_Figures/51_TradeWeighted_CountryBetweenness/plot_top50_rank_population.py": [
+      "13_CMIP6_GridPath_Figures/51_TradeWeighted_CountryBetweenness/plot_all_country_rank_arrows.py",
+      "13_CMIP6_GridPath_Figures/51_TradeWeighted_CountryBetweenness/plot_rank_dynamics.py"
+    ],
+    "13_CMIP6_GridPath_Figures/51_TradeWeighted_CountryBetweenness/plot_all_country_rank_arrows.py": [
+      "13_CMIP6_GridPath_Figures/51_TradeWeighted_CountryBetweenness/plot_rank_dynamics.py"
+    ],
+    "13_CMIP6_GridPath_Figures/51_TradeWeighted_CountryBetweenness/plot_rank_dynamics.py": [
+      "13_CMIP6_GridPath_Figures/51_TradeWeighted_CountryBetweenness/plot_betweenness.py"
+    ],
+    "13_CMIP6_GridPath_Figures/51_TradeWeighted_CountryBetweenness/plot_betweenness.py": [],
+    "13_CMIP6_GridPath_Figures/60_TwoPart_Disturbance_Chokepoint_Analysis_20261101/plot_auxiliary.py": [
+      "13_CMIP6_GridPath_Figures/58_FourClass_Threshold_Analysis_20261101/summarize_and_plot.py"
+    ],
+    "13_CMIP6_GridPath_Figures/58_FourClass_Threshold_Analysis_20261101/summarize_and_plot.py": [],
+    "13_CMIP6_GridPath_Figures/45_AdmissionThreshold_Sensitivity/validate_and_plot.py": [
+      "13_CMIP6_GridPath_Figures/45_AdmissionThreshold_Sensitivity/compute_sensitivity.py"
+    ],
+    "13_CMIP6_GridPath_Figures/45_AdmissionThreshold_Sensitivity/compute_sensitivity.py": [
+      "13_CMIP6_GridPath_Figures/repair_cmip6_monthly_routes.py"
+    ],
+    "13_CMIP6_GridPath_Figures/repair_cmip6_monthly_routes.py": [
+      "13_CMIP6_GridPath_Figures/analyze_ethan_trajectory_arctic_embedding.py",
+      "13_CMIP6_GridPath_Figures/chokepoints24.py"
+    ],
+    "13_CMIP6_GridPath_Figures/analyze_ethan_trajectory_arctic_embedding.py": [],
+    "13_CMIP6_GridPath_Figures/chokepoints24.py": [],
+    "13_CMIP6_GridPath_Figures/44_CMIP6_Monthly_SSP_Audit/validate_and_plot.py": [
+      "13_CMIP6_GridPath_Figures/44_CMIP6_Monthly_SSP_Audit/compute_seasonality.py"
+    ],
+    "13_CMIP6_GridPath_Figures/44_CMIP6_Monthly_SSP_Audit/compute_seasonality.py": [
+      "13_CMIP6_GridPath_Figures/repair_cmip6_monthly_routes.py"
+    ],
+    "13_CMIP6_GridPath_Figures/44_CMIP6_Monthly_SSP_Audit/compute_missingness_sensitivity.py": [
+      "13_CMIP6_GridPath_Figures/44_CMIP6_Monthly_SSP_Audit/compute_seasonality.py"
+    ],
+    "13_CMIP6_GridPath_Figures/40_Chokepoint_Bipartite_Dependency/build_bipartite_by_vessel.py": [
+      "13_CMIP6_GridPath_Figures/40_Chokepoint_Bipartite_Dependency/build_bipartite.py"
+    ],
+    "13_CMIP6_GridPath_Figures/40_Chokepoint_Bipartite_Dependency/build_bipartite.py": [],
+    "13_CMIP6_GridPath_Figures/rebuild_portwatch_event_appendix.py": [],
+    "13_CMIP6_GridPath_Figures/62_FigureAligned_Manuscript_20261101/plot_aligned_economics.py": [
+      "13_CMIP6_GridPath_Figures/32_NCC2023_IndirectExposure/plot_figure5.py",
+      "13_CMIP6_GridPath_Figures/plot_mainfig4_regional_monthly.py"
+    ],
+    "13_CMIP6_GridPath_Figures/plot_mainfig4_regional_monthly.py": [
+      "13_CMIP6_GridPath_Figures/rebuild_mainfig4_regional_monthly.py"
+    ],
+    "13_CMIP6_GridPath_Figures/rebuild_mainfig4_regional_monthly.py": [
+      "13_CMIP6_GridPath_Figures/rebuild_mainfig3_lcc_transition.py"
+    ],
+    "13_CMIP6_GridPath_Figures/rebuild_mainfig3_lcc_transition.py": [
+      "13_CMIP6_GridPath_Figures/chokepoints24.py",
+      "13_CMIP6_GridPath_Figures/physical_ocean_routing.py",
+      "13_CMIP6_GridPath_Figures/prepare_physical_monthly_ice.py",
+      "13_CMIP6_GridPath_Figures/rebuild_mainfig2_latest_network.py",
+      "13_CMIP6_GridPath_Figures/recompute_physical_arctic_embedding.py",
+      "13_CMIP6_GridPath_Figures/repair_cmip6_monthly_routes.py"
+    ],
+    "13_CMIP6_GridPath_Figures/prepare_physical_monthly_ice.py": [
+      "13_CMIP6_GridPath_Figures/chokepoints24.py",
+      "13_CMIP6_GridPath_Figures/physical_ocean_routing.py",
+      "13_CMIP6_GridPath_Figures/repair_cmip6_monthly_routes.py"
+    ],
+    "13_CMIP6_GridPath_Figures/physical_ocean_routing.py": [
+      "13_CMIP6_GridPath_Figures/analyze_ethan_trajectory_arctic_embedding.py",
+      "13_CMIP6_GridPath_Figures/chokepoints24.py"
+    ],
+    "13_CMIP6_GridPath_Figures/recompute_physical_arctic_embedding.py": [
+      "13_CMIP6_GridPath_Figures/chokepoints24.py",
+      "13_CMIP6_GridPath_Figures/physical_ocean_routing.py",
+      "13_CMIP6_GridPath_Figures/prepare_physical_monthly_ice.py",
+      "13_CMIP6_GridPath_Figures/recompute_chokepoints24_routes.py",
+      "13_CMIP6_GridPath_Figures/repair_cmip6_monthly_routes.py"
+    ],
+    "13_CMIP6_GridPath_Figures/recompute_chokepoints24_routes.py": [
+      "13_CMIP6_GridPath_Figures/analyze_ethan_trajectory_arctic_embedding.py",
+      "13_CMIP6_GridPath_Figures/chokepoints24.py",
+      "13_CMIP6_GridPath_Figures/repair_cmip6_monthly_routes.py"
+    ],
+    "13_CMIP6_GridPath_Figures/rebuild_mainfig2_latest_network.py": [
+      "13_CMIP6_GridPath_Figures/chokepoints24.py",
+      "13_CMIP6_GridPath_Figures/physical_ocean_routing.py",
+      "13_CMIP6_GridPath_Figures/prepare_physical_monthly_ice.py",
+      "13_CMIP6_GridPath_Figures/recompute_physical_arctic_embedding.py",
+      "13_CMIP6_GridPath_Figures/repair_cmip6_monthly_routes.py"
+    ],
+    "13_CMIP6_GridPath_Figures/32_NCC2023_IndirectExposure/plot_figure5.py": [],
+    "13_CMIP6_GridPath_Figures/62_FigureAligned_Manuscript_20261101/recalculate_economics.py": [
+      "13_CMIP6_GridPath_Figures/rebuild_mainfig4_regional_monthly.py"
+    ],
+    "13_CMIP6_GridPath_Figures/recompute_mainfig3_five_closures.py": [
+      "13_CMIP6_GridPath_Figures/chokepoints24.py",
+      "13_CMIP6_GridPath_Figures/physical_ocean_routing.py",
+      "13_CMIP6_GridPath_Figures/prepare_physical_monthly_ice.py",
+      "13_CMIP6_GridPath_Figures/rebuild_mainfig2_latest_network.py",
+      "13_CMIP6_GridPath_Figures/rebuild_mainfig3_lcc_transition.py",
+      "13_CMIP6_GridPath_Figures/recompute_physical_arctic_embedding.py",
+      "13_CMIP6_GridPath_Figures/repair_cmip6_monthly_routes.py"
+    ],
+    "13_CMIP6_GridPath_Figures/60_TwoPart_Disturbance_Chokepoint_Analysis_20261101/calculate_new_country_ranks.py": [
+      "13_CMIP6_GridPath_Figures/51_TradeWeighted_CountryBetweenness/calculate_coastal_betweenness.py",
+      "13_CMIP6_GridPath_Figures/rebuild_mainfig2_latest_network.py",
+      "13_CMIP6_GridPath_Figures/repair_cmip6_monthly_routes.py"
+    ],
+    "13_CMIP6_GridPath_Figures/51_TradeWeighted_CountryBetweenness/calculate_coastal_betweenness.py": [
+      "13_CMIP6_GridPath_Figures/rebuild_mainfig2_latest_network.py",
+      "13_CMIP6_GridPath_Figures/repair_cmip6_monthly_routes.py"
+    ],
+    "13_CMIP6_GridPath_Figures/60_TwoPart_Disturbance_Chokepoint_Analysis_20261101/replay_rank_routes.py": [
+      "13_CMIP6_GridPath_Figures/chokepoints24.py",
+      "13_CMIP6_GridPath_Figures/physical_ocean_routing.py",
+      "13_CMIP6_GridPath_Figures/prepare_physical_monthly_ice.py",
+      "13_CMIP6_GridPath_Figures/rebuild_mainfig2_latest_network.py",
+      "13_CMIP6_GridPath_Figures/recompute_physical_arctic_embedding.py",
+      "13_CMIP6_GridPath_Figures/repair_cmip6_monthly_routes.py"
+    ],
+    "13_CMIP6_GridPath_Figures/60_TwoPart_Disturbance_Chokepoint_Analysis_20261101/select_dependent_closures.py": [
+      "13_CMIP6_GridPath_Figures/60_TwoPart_Disturbance_Chokepoint_Analysis_20261101/analyze_two_parts.py"
+    ],
+    "13_CMIP6_GridPath_Figures/60_TwoPart_Disturbance_Chokepoint_Analysis_20261101/analyze_two_parts.py": [],
+    "13_CMIP6_GridPath_Figures/66_MainFig3_DualAxis_20261106/build_figure.py": [],
+    "13_CMIP6_GridPath_Figures/64_NetworkTerminology_20261101/update_figure_labels.py": [],
+    "13_CMIP6_GridPath_Figures/60_TwoPart_Disturbance_Chokepoint_Analysis_20261101/plot_partI_extreme_mainfig3.py": [
+      "13_CMIP6_GridPath_Figures/60_TwoPart_Disturbance_Chokepoint_Analysis_20261101/plot_partI_maps.py"
+    ],
+    "13_CMIP6_GridPath_Figures/60_TwoPart_Disturbance_Chokepoint_Analysis_20261101/plot_partI_maps.py": [
+      "13_CMIP6_GridPath_Figures/49_Transparent_StageJump_Maps/plot_transparent.py"
+    ],
+    "13_CMIP6_GridPath_Figures/49_Transparent_StageJump_Maps/plot_transparent.py": [
+      "13_CMIP6_GridPath_Figures/46_RegionalTrade_DistancePrototype/build_distance_cartograms.py"
+    ],
+    "13_CMIP6_GridPath_Figures/46_RegionalTrade_DistancePrototype/build_distance_cartograms.py": [],
+    "13_CMIP6_GridPath_Figures/58_FourClass_Threshold_Analysis_20261101/prepare_coastal_masks.py": [
+      "13_CMIP6_GridPath_Figures/51_TradeWeighted_CountryBetweenness/calculate_coastal_betweenness.py",
+      "13_CMIP6_GridPath_Figures/repair_cmip6_monthly_routes.py"
+    ],
+    "13_CMIP6_GridPath_Figures/58_FourClass_Threshold_Analysis_20261101/calculate_thresholds.py": [
+      "13_CMIP6_GridPath_Figures/58_FourClass_Threshold_Analysis_20261101/calculate_thresholds.py",
+      "13_CMIP6_GridPath_Figures/chokepoints24.py",
+      "13_CMIP6_GridPath_Figures/physical_ocean_routing.py",
+      "13_CMIP6_GridPath_Figures/prepare_physical_monthly_ice.py",
+      "13_CMIP6_GridPath_Figures/rebuild_mainfig2_latest_network.py",
+      "13_CMIP6_GridPath_Figures/recompute_physical_arctic_embedding.py",
+      "13_CMIP6_GridPath_Figures/repair_cmip6_monthly_routes.py"
+    ],
+    "13_CMIP6_GridPath_Figures/plot_mainfig2_latest_network.py": [
+      "13_CMIP6_GridPath_Figures/physical_ocean_routing.py",
+      "13_CMIP6_GridPath_Figures/rebuild_mainfig2_latest_network.py",
+      "13_CMIP6_GridPath_Figures/repair_cmip6_monthly_routes.py"
+    ],
+    "13_CMIP6_GridPath_Figures/calculate_mainfig2_cost_uncertainty.py": [
+      "13_CMIP6_GridPath_Figures/rebuild_mainfig2_latest_network.py",
+      "13_CMIP6_GridPath_Figures/recompute_physical_arctic_embedding.py",
+      "13_CMIP6_GridPath_Figures/repair_cmip6_monthly_routes.py"
+    ],
+    "13_CMIP6_GridPath_Figures/plot_mainfig1_latest_network.py": [
+      "13_CMIP6_GridPath_Figures/plot_port_network_raster.py",
+      "13_CMIP6_GridPath_Figures/prepare_mainfig1_density_region_sankey.py",
+      "13_CMIP6_GridPath_Figures/rebuild_mainfig1_latest_network.py",
+      "13_CMIP6_GridPath_Figures/repair_cmip6_monthly_routes.py"
+    ],
+    "13_CMIP6_GridPath_Figures/rebuild_mainfig1_latest_network.py": [
+      "13_CMIP6_GridPath_Figures/chokepoints24.py",
+      "13_CMIP6_GridPath_Figures/physical_ocean_routing.py",
+      "13_CMIP6_GridPath_Figures/prepare_physical_monthly_ice.py",
+      "13_CMIP6_GridPath_Figures/recompute_physical_arctic_embedding.py",
+      "13_CMIP6_GridPath_Figures/repair_cmip6_monthly_routes.py"
+    ],
+    "13_CMIP6_GridPath_Figures/plot_port_network_raster.py": [],
+    "13_CMIP6_GridPath_Figures/prepare_mainfig1_density_region_sankey.py": [
+      "13_CMIP6_GridPath_Figures/plot_mainfig1_latest_network.py",
+      "13_CMIP6_GridPath_Figures/prepare_mainfig1_trade_weights.py",
+      "13_CMIP6_GridPath_Figures/rebuild_mainfig1_latest_network.py"
+    ],
+    "13_CMIP6_GridPath_Figures/prepare_mainfig1_trade_weights.py": [
+      "13_CMIP6_GridPath_Figures/plot_mainfig1_latest_network.py",
+      "13_CMIP6_GridPath_Figures/prepare_mainfig1_density_region_sankey.py",
+      "13_CMIP6_GridPath_Figures/rebuild_mainfig1_latest_network.py",
+      "13_CMIP6_GridPath_Figures/validate_mainfig1_density_region_sankey.py"
+    ],
+    "13_CMIP6_GridPath_Figures/validate_mainfig1_density_region_sankey.py": [
+      "13_CMIP6_GridPath_Figures/prepare_mainfig1_density_region_sankey.py",
+      "13_CMIP6_GridPath_Figures/rebuild_mainfig1_latest_network.py"
+    ]
+  }
+}

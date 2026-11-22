@@ -1,0 +1,178 @@
+{
+  "status": "USER_AUTHORIZED_HYPOTHETICAL_GEOGRAPHIC_PRESSURE_TEST",
+  "not_historical_reconstruction": true,
+  "selection": "Fixed nested illustrative orders, not independent outcome-optimized combinations",
+  "demand": "Original 2024 trade-covered cohort, 16233 OD-ship-month records; fixed original denominator",
+  "climate": "Existing six-model 60-model-year SSP585 2091-2100 monthly core and access masks, common support >=50%",
+  "premium": 0.05,
+  "cost_scope": "Distance-equivalent full-voyage premium; not a calibrated monetary cost model",
+  "hypothesis": "Complete unavailability of the stated geography/service at a monthly snapshot; not observed risk premiums, event probabilities, or drought service rates",
+  "coastal_radius_km": 200,
+  "sampling_error_margin_km": 2,
+  "coast_bit_order": [
+    "EGY",
+    "TUR",
+    "SGP",
+    "PAN",
+    "ARE",
+    "GHA",
+    "CIV",
+    "NGA"
+  ],
+  "classes": [
+    {
+      "id": "T1",
+      "label": "Security/conflict",
+      "unit": "Traditional security region",
+      "steps": [
+        {
+          "label": "Red Sea (Bab el-Mandeb)",
+          "gates": [
+            "Bab_el_Mandeb"
+          ]
+        },
+        {
+          "label": "Hormuz",
+          "gates": [
+            "Hormuz"
+          ]
+        },
+        {
+          "label": "Black Sea outlet (Bosporus)",
+          "gates": [
+            "Bosporus"
+          ]
+        },
+        {
+          "label": "Malacca",
+          "gates": [
+            "Malacca"
+          ]
+        },
+        {
+          "label": "West Africa hypothetical coastal exclusion",
+          "coasts": [
+            "GHA",
+            "CIV",
+            "NGA"
+          ]
+        }
+      ],
+      "warning": "Full exclusions are hypothetical severe stresses, not empirical piracy or war closure footprints; Bosporus is a stated Black Sea-outlet proxy"
+    },
+    {
+      "id": "T2",
+      "label": "Weather/hydrology",
+      "unit": "Traditional weather-affected corridor",
+      "steps": [
+        {
+          "label": "Panama",
+          "gates": [
+            "Panama"
+          ]
+        },
+        {
+          "label": "Cape of Good Hope",
+          "gates": [
+            "Cape_Good_Hope"
+          ]
+        },
+        {
+          "label": "Korea Strait",
+          "gates": [
+            "Korea"
+          ]
+        },
+        {
+          "label": "Tsugaru Strait",
+          "gates": [
+            "Tsugaru"
+          ]
+        },
+        {
+          "label": "Torres Strait",
+          "gates": [
+            "Torres"
+          ]
+        }
+      ],
+      "warning": "Complete weather-related corridor unavailability is an upper stress, not calibrated Panama capacity or a claim that the same storm acts in all months"
+    },
+    {
+      "id": "T3",
+      "label": "Policy/coastal exclusion",
+      "unit": "Traditional-network coastal country",
+      "steps": [
+        {
+          "label": "Egypt 200 km",
+          "coasts": [
+            "EGY"
+          ]
+        },
+        {
+          "label": "Turkiye 200 km",
+          "coasts": [
+            "TUR"
+          ]
+        },
+        {
+          "label": "Singapore 200 km",
+          "coasts": [
+            "SGP"
+          ]
+        },
+        {
+          "label": "Panama 200 km",
+          "coasts": [
+            "PAN"
+          ]
+        },
+        {
+          "label": "United Arab Emirates 200 km",
+          "coasts": [
+            "ARE"
+          ]
+        }
+      ],
+      "warning": "Explicit all-traffic geographic exclusion stress, not observed legislation, territory, ship-flag sanctions or a flag imputation"
+    },
+    {
+      "id": "T4",
+      "label": "Infrastructure/logistics",
+      "unit": "Canal or port-service node",
+      "steps": [
+        {
+          "label": "Suez Canal",
+          "gates": [
+            "Suez"
+          ]
+        },
+        {
+          "label": "Baltimore port services",
+          "ports": [
+            "USA:oxm_port103"
+          ]
+        },
+        {
+          "label": "New York-New Jersey port services",
+          "ports": [
+            "USA:oxm_port815"
+          ]
+        },
+        {
+          "label": "Savannah port services",
+          "ports": [
+            "USA:oxm_port1170"
+          ]
+        },
+        {
+          "label": "Houston port services",
+          "ports": [
+            "USA:oxm_port481"
+          ]
+        }
+      ],
+      "warning": "All-ship port-service shutdown is a hypothetical node stress, not an assertion about coverage of the 2024 ILA strike; offshore transit remains available"
+    }
+  ]
+}
